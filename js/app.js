@@ -40,6 +40,18 @@
                     
                 },
             ],
+            reviews: [
+                { 
+                    stars: 5,
+                    body: "I love this product!",
+                    author: "joe@thomas.com"
+                },
+                { 
+                    stars: 1,
+                    body: "This product sucks",
+                    author: "tim@hater.com"
+                }
+            ],
             canPurchase:true,
             soldOut:false,
         },
@@ -62,6 +74,18 @@
                     full:"Chrysanthemum.jpg",
                     thumb:"Chrysanthemum-thumb.jpg",
                     
+                }
+            ],
+            reviews: [
+                { 
+                    stars: 5,
+                    body: "I love this product!",
+                    author: "joe@thomas.com"
+                },
+                { 
+                    stars: 1,
+                    body: "This product sucks",
+                    author: "tim@hater.com"
                 }
             ],
             canPurchase:false,
@@ -87,6 +111,18 @@
                     thumb:"Desert-thumb.jpg",
                     
                 },
+            ],
+            reviews: [
+                { 
+                    stars: 5,
+                    body: "I love this product!",
+                    author: "joe@thomas.com"
+                },
+                { 
+                    stars: 1,
+                    body: "This product sucks",
+                    author: "tim@hater.com"
+                }
             ],
             canPurchase:true,
             soldOut:true,
