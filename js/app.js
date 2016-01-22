@@ -24,6 +24,13 @@
         }
     });
     
+    app.directive('productTitle',function(){
+        return {
+            restrict:'E',
+            templateUrl:'partials/product-title.html'
+        }
+    });
+    
     app.controller('StoreController',function(){
         this.products = gems;
     });
