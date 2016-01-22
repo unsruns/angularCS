@@ -1,11 +1,18 @@
-<html>
+<html ng-app="store">
     <head>
         <title>Shapping angularjs</title>
         <link rel="stylesheet" 
               href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     </head>
-    <body>
-        <script src="https://code.angularjs.org/2.0.0-alpha.55/angular2.min.js"></script>
+    <body ng-controller="StoreController as store">
+        
+        <div ng-repeat="product in store.products">
+            <h1>{{product.name}}</h1>
+            <h2>{{product.price}}</h2>
+            <p>{{product.description}}</p>
+            <button ng-show="store.product.canPurchase">Add to Cart</button>
+        </div>
+        <script src="js/angular.min.js"></script>
         <script src="js/app.js"></script>
     </body>
 </html>
